@@ -1,0 +1,3305 @@
+2017-03-31 06:00:07 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/index' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/ind...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:00:07 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3UR9z6QOEAASZQuk0AAAAG'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49667'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/index'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/index'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490932807.224
+    'REQUEST_TIME' => 1490932807
+]
+2017-03-31 06:00:15 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/signin' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/sig...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:00:15 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3UT9z6QOEAAS3xmtoAAAAC'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49671'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490932815.213
+    'REQUEST_TIME' => 1490932815
+]
+2017-03-31 06:00:29 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:00:29 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3UXdz6QOEAAYCBXwEAAAAF'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49673'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490932829.118
+    'REQUEST_TIME' => 1490932829
+]
+2017-03-31 06:00:29 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/signin' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/sig...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:00:29 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3UXdz6QOEAAYI1kXwAAAAA'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49675'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490932829.93
+    'REQUEST_TIME' => 1490932829
+]
+2017-03-31 06:00:44 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/index' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/ind...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:00:44 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3UbNz6QOEAASe48RUAAAAI'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49678'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/index'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/index'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490932844.386
+    'REQUEST_TIME' => 1490932844
+]
+2017-03-31 06:00:49 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:00:49 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3Ucdz6QOEAASe48RcAAAAI'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49678'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490932849.071
+    'REQUEST_TIME' => 1490932849
+]
+2017-03-31 06:00:57 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/signin' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/sig...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:00:57 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3Uedz6QOEAAXobMKAAAAAH'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49680'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490932857.598
+    'REQUEST_TIME' => 1490932857
+]
+2017-03-31 06:01:01 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/signin' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/sig...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:01:01 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3Ufdz6QOEAAXobMKIAAAAH'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49680'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490932861.708
+    'REQUEST_TIME' => 1490932861
+]
+2017-03-31 06:01:03 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/signin' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/sig...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:01:03 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3Uf9z6QOEAASZQuk4AAAAG'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49681'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490932863.949
+    'REQUEST_TIME' => 1490932863
+]
+2017-03-31 06:01:11 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/signin' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/sig...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:01:11 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3Uh9z6QOEAANEVcIAAAAAE'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49684'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490932871.689
+    'REQUEST_TIME' => 1490932871
+]
+2017-03-31 06:01:31 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/signin".' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/signin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:01:30 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3Umtz6QOEAAYCBXwIAAAAF'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49686'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490932890.983
+    'REQUEST_TIME' => 1490932890
+]
+2017-03-31 06:01:34 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/signin".' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/signin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:01:34 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3Untz6QOEAASy5DU0AAAAD'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49687'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490932894.479
+    'REQUEST_TIME' => 1490932894
+]
+2017-03-31 06:01:44 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/signin".' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/signin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:01:44 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3UqNz6QOEAAYI1kX4AAAAA'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49689'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490932904.971
+    'REQUEST_TIME' => 1490932904
+]
+2017-03-31 06:01:48 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/signin".' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/signin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:01:48 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3UrNz6QOEAAX8XusAAAAAB'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49690'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490932908.296
+    'REQUEST_TIME' => 1490932908
+]
+2017-03-31 06:01:51 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/signin' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/sig...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:01:51 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3Ur9z6QOEAAXobMKQAAAAH'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49691'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490932911.126
+    'REQUEST_TIME' => 1490932911
+]
+2017-03-31 06:01:51 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:01:51 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3Ur9z6QOEAAXobMKYAAAAH'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49691'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490932911.646
+    'REQUEST_TIME' => 1490932911
+]
+2017-03-31 06:01:51 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:01:51 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3Ur9z6QOEAAX8XusIAAAAB'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49690'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490932911.706
+    'REQUEST_TIME' => 1490932911
+]
+2017-03-31 06:01:55 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/signin' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/sig...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:01:55 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3Us9z6QOEAAXobMKgAAAAH'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49691'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490932915.879
+    'REQUEST_TIME' => 1490932915
+]
+2017-03-31 06:01:56 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/signin' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/sig...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:01:56 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3UtNz6QOEAASZQuk8AAAAG'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49693'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490932916.96
+    'REQUEST_TIME' => 1490932916
+]
+2017-03-31 06:01:58 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/signin' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/sig...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:01:58 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3Uttz6QOEAASZQulEAAAAG'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49693'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490932918.919
+    'REQUEST_TIME' => 1490932918
+]
+2017-03-31 06:02:03 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/signin' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/sig...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:02:03 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3Uu9z6QOEAAYI1kYIAAAAA'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49699'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490932923.822
+    'REQUEST_TIME' => 1490932923
+]
+2017-03-31 06:04:40 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/signin' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/sig...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:04:40 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3VV9z6QOEAAXobMKoAAAAH'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49773'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490933079.766
+    'REQUEST_TIME' => 1490933079
+]
+2017-03-31 06:04:40 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:04:40 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3VWNz6QOEAAS3xmt0AAAAC'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49774'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490933080.081
+    'REQUEST_TIME' => 1490933080
+]
+2017-03-31 06:04:41 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 06:04:41 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3VWdz6QOEAANEVcIIAAAAE'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '49775'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490933081.277
+    'REQUEST_TIME' => 1490933081
+]
+2017-03-31 07:23:36 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 07:23:35 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3n19z6QOEAASe48RsAAAAI'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50061'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490937815.766
+    'REQUEST_TIME' => 1490937815
+]
+2017-03-31 07:23:36 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 07:23:35 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3n19z6QOEAAYI1kYYAAAAA'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50060'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490937815.634
+    'REQUEST_TIME' => 1490937815
+]
+2017-03-31 07:24:00 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/admin' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('admin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/adm...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 07:24:00 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/admin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3n8Nz6QOEAAA-IASsAAAAO'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50077'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/admin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/admin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490937840.091
+    'REQUEST_TIME' => 1490937840
+]
+2017-03-31 07:24:06 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/default/admin' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('admin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/default/a...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 07:24:06 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/default/admin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3n9tz6QOEAAXobMKwAAAAH'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50080'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/default/admin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/default/admin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490937846.244
+    'REQUEST_TIME' => 1490937846
+]
+2017-03-31 07:25:10 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/default/admin' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('admin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/default/a...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 07:25:10 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/default/admin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3oNtz6QOEAANEVcIcAAAAE'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50090'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/default/admin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/default/admin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490937910.682
+    'REQUEST_TIME' => 1490937910
+]
+2017-03-31 07:27:57 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\modules\admin\controllers\DefaultController' in file: /Applications/XAMPP/xamppfiles/htdocs/basics/modules/admin/controllers/DefaultController.php. Namespace missing?' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\modules\\adm...')
+#1 [internal function]: spl_autoload_call('app\\modules\\adm...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(633): class_exists('app\\modules\\adm...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(591): yii\base\Module->createControllerByID('default')
+#4 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(583): yii\base\Module->createController('default')
+#5 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(517): yii\base\Module->createController('admin/default/')
+#6 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/default/', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-31 07:27:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/default/'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3o3dz6QOEAAYI1kYgAAAAA'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50122'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/default/'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/default/'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490938077.1
+    'REQUEST_TIME' => 1490938077
+]
+2017-03-31 07:28:07 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/defa/".' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/defa/', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 07:28:07 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/defa/'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3o59z6QOEAASy5DVIAAAAD'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50124'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/defa/'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/defa/'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490938087.187
+    'REQUEST_TIME' => 1490938087
+]
+2017-03-31 07:28:20 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/defa/".' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/defa/', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 07:28:20 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/defa/'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3o9Nz6QOEAAA@7zZsAAAAB'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50127'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/defa/'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/defa/'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490938100.444
+    'REQUEST_TIME' => 1490938100
+]
+2017-03-31 07:28:21 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/defa/".' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/defa/', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 07:28:21 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/defa/'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3o9dz6QOEAAA@7zZ0AAAAB'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50127'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/defa/'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/defa/'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490938101.27
+    'REQUEST_TIME' => 1490938101
+]
+2017-03-31 07:28:21 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/defa/".' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/defa/', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 07:28:21 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/defa/'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3o9dz6QOEAAA@7zZ8AAAAB'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50127'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/defa/'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/defa/'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490938101.877
+    'REQUEST_TIME' => 1490938101
+]
+2017-03-31 07:30:22 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/login/".' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/login/', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 07:30:22 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/login/'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3pbtz6QOEAASZQulgAAAAG'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50143'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/login/'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/login/'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490938222.392
+    'REQUEST_TIME' => 1490938222
+]
+2017-03-31 07:34:13 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\modules\admin\controllers\LosginController' in file: /Applications/XAMPP/xamppfiles/htdocs/basics/modules/admin/controllers/LosginController.php. Namespace missing?' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\modules\\adm...')
+#1 [internal function]: spl_autoload_call('app\\modules\\adm...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(633): class_exists('app\\modules\\adm...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(591): yii\base\Module->createControllerByID('losgin')
+#4 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(583): yii\base\Module->createController('losgin')
+#5 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(517): yii\base\Module->createController('admin/losgin/')
+#6 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/losgin/', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-03-31 07:34:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/losgin/'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3qVdz6QOEAASy5DVMAAAAD'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50307'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/losgin/'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/losgin/'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490938453.818
+    'REQUEST_TIME' => 1490938453
+]
+2017-03-31 07:34:42 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/losgin/' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/losgin/', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 07:34:42 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/losgin/'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3qctz6QOEAABFx@ngAAAAI'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50309'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/losgin/'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/losgin/'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490938482.39
+    'REQUEST_TIME' => 1490938482
+]
+2017-03-31 07:34:50 [127.0.0.1][-][-][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: /Applications/XAMPP/xamppfiles/htdocs/basics/modules/admin/views/losgin/index.php' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/View.php:229
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/Applications/X...', Array, Object(app\modules\admin\controllers\LosginController))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\modules\admin\controllers\LosginController))
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/modules/admin/controllers/LosginController.php(16): yii\base\Controller->render('index')
+#3 [internal function]: app\modules\admin\controllers\LosginController->actionLogin()
+#4 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('login', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/losgin/lo...', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-03-31 07:34:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/losgin/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3qetz6QOEAAYaOZmwAAAAL'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50314'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/losgin/login'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/losgin/login'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490938490.256
+    'REQUEST_TIME' => 1490938490
+]
+2017-03-31 07:35:12 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/login' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('login', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/log...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 07:35:12 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3qkNz6QOEAAA@7zaEAAAAB'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50317'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/login'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/login'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490938512.464
+    'REQUEST_TIME' => 1490938512
+]
+2017-03-31 07:35:16 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/signin' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/sig...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 07:35:16 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3qlNz6QOEAASZQuloAAAAG'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50319'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490938516.109
+    'REQUEST_TIME' => 1490938516
+]
+2017-03-31 07:35:21 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/signin' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/sig...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 07:35:21 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3qmdz6QOEAASZQulwAAAAG'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50319'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490938521.053
+    'REQUEST_TIME' => 1490938521
+]
+2017-03-31 07:35:25 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/signin' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/sig...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 07:35:25 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3qndz6QOEAASZQul4AAAAG'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50319'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490938525.033
+    'REQUEST_TIME' => 1490938525
+]
+2017-03-31 07:35:25 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/signin' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/sig...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 07:35:25 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3qndz6QOEAAYCBXxAAAAAF'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50320'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490938525.054
+    'REQUEST_TIME' => 1490938525
+]
+2017-03-31 07:36:15 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/user/signin' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/user/sign...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 07:36:15 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/user/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3qz9z6QOEAASg2JGcAAAAK'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50322'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/user/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/user/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490938575.161
+    'REQUEST_TIME' => 1490938575
+]
+2017-03-31 07:36:39 [127.0.0.1][-][-][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: /Applications/XAMPP/xamppfiles/htdocs/basics/modules/admin/views/user/index.php' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/View.php:229
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/Applications/X...', Array, Object(app\modules\admin\controllers\UserController))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\modules\admin\controllers\UserController))
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/modules/admin/controllers/UserController.php(26): yii\base\Controller->render('index')
+#3 [internal function]: app\modules\admin\controllers\UserController->actionLogin()
+#4 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('login', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/user/logi...', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-03-31 07:36:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/user/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3q59z6QOEAABA6XT0AAAAC'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50323'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/user/login'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/user/login'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490938599.394
+    'REQUEST_TIME' => 1490938599
+]
+2017-03-31 07:37:00 [127.0.0.1][-][-][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: /Applications/XAMPP/xamppfiles/htdocs/basics/modules/admin/views/user/signin.php' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/View.php:229
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/Applications/X...', Array, Object(app\modules\admin\controllers\UserController))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('signin', Array, Object(app\modules\admin\controllers\UserController))
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/modules/admin/controllers/UserController.php(21): yii\base\Controller->render('signin')
+#3 [internal function]: app\modules\admin\controllers\UserController->actionSignin()
+#4 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signin', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/user/sign...', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-03-31 07:37:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/user/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3q-Nz6QOEAABFx@noAAAAI'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50325'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/user/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/user/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490938620.247
+    'REQUEST_TIME' => 1490938620
+]
+2017-03-31 07:37:01 [127.0.0.1][-][-][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: /Applications/XAMPP/xamppfiles/htdocs/basics/modules/admin/views/user/signin.php' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/View.php:229
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/Applications/X...', Array, Object(app\modules\admin\controllers\UserController))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('signin', Array, Object(app\modules\admin\controllers\UserController))
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/modules/admin/controllers/UserController.php(21): yii\base\Controller->render('signin')
+#3 [internal function]: app\modules\admin\controllers\UserController->actionSignin()
+#4 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signin', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/user/sign...', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-03-31 07:37:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/user/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3q-dz6QOEAANEVcI8AAAAE'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50327'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/user/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/user/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490938621.422
+    'REQUEST_TIME' => 1490938621
+]
+2017-03-31 07:37:09 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/signin' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/sig...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 07:37:09 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3rBdz6QOEAAA@7zaIAAAAB'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50329'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490938629.626
+    'REQUEST_TIME' => 1490938629
+]
+2017-03-31 07:37:09 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/admin/signin' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signin', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/sig...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 07:37:09 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3rBdz6QOEAASZQumAAAAAG'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50330'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490938629.671
+    'REQUEST_TIME' => 1490938629
+]
+2017-03-31 08:24:48 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/admin/signin".' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/admin/sig...', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/basics/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-03-31 08:24:48 [127.0.0.1][-][sf10rpo33527er8rct6fi3pq15][info][application] $_GET = [
+    'r' => 'admin/admin/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pooeye'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN32MNz6QOEAABX6OHIAAAAA'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '50898'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/admin/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/admin/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490941488.092
+    'REQUEST_TIME' => 1490941488
+]
+2017-03-31 08:37:09 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ''css/backend/css/compiled/sign' (T_CONSTANT_ENCAPSED_STRING), expecting ']'' in /Applications/XAMPP/xamppfiles/htdocs/basics/assets/AppAsset.php:23
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-03-31 08:37:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/user/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN35Fdz6QOEAASg2JHwAAAAK'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '51128'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/user/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/user/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490942229.756
+    'REQUEST_TIME' => 1490942229
+]
+2017-03-31 08:44:28 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Access level to app\modules\admin\controllers\UserController::$layout must be public (as in class yii\web\Controller)' in /Applications/XAMPP/xamppfiles/htdocs/basics/modules/admin/controllers/UserController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-03-31 08:44:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/user/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN36zNz6QOEAACfEw3sAAAAA'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '51164'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/user/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/user/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490942668.516
+    'REQUEST_TIME' => 1490942668
+]
+2017-03-31 08:59:25 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)' in /Applications/XAMPP/xamppfiles/htdocs/basics/modules/admin/controllers/UserController.php:12
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-03-31 08:59:24 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/user/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3@TNz6QOEAASy5DXYAAAAD'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '51639'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/user/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/user/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490943564.668
+    'REQUEST_TIME' => 1490943564
+]
+2017-03-31 08:59:26 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)' in /Applications/XAMPP/xamppfiles/htdocs/basics/modules/admin/controllers/UserController.php:12
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-03-31 08:59:26 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/user/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_OVes8sblU4ildxvn_zW2e5vjLJdLBgO\";}'
+    'PHPSESSID' => 'sf10rpo33527er8rct6fi3pq15'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WN3@Ttz6QOEAACcA6AQAAAAE'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_COOKIE' => '_csrf=2e44b38f5f073e7a3086a0f25df633fb69dc43e2fcf6351a187b9c1e931da431a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_OVes8sblU4ildxvn_zW2e5vjLJdLBgO%22%3B%7D; PHPSESSID=sf10rpo33527er8rct6fi3pq15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.24 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/basics/web/index.php'
+    'REMOTE_PORT' => '51640'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/user/signin'
+    'REQUEST_URI' => '/basics/web/index.php?r=admin/user/signin'
+    'SCRIPT_NAME' => '/basics/web/index.php'
+    'PHP_SELF' => '/basics/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490943566.793
+    'REQUEST_TIME' => 1490943566
+]
