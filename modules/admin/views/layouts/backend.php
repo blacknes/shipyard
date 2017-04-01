@@ -4,8 +4,6 @@
 /* @var $content string */
 
 use yii\helpers\Html;
-use yii\bootstrap\Nav;
-use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use app\modules\admin\assets\BackendAsset;
 
@@ -24,15 +22,7 @@ BackendAsset::register($this);
 <body>
 <?php $this->beginBody() ?>
 
-<div class="wrap">
-
-    <div class="container">
-        <?= Breadcrumbs::widget([
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-        ]) ?>
-        <?= $content ?>
-    </div>
-</div>
+<?php echo $content; ?>
 
 <?php $this->endBody() ?>
 </body>

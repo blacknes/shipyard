@@ -3303,3 +3303,426 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1490943566.793
     'REQUEST_TIME' => 1490943566
 ]
+2017-03-31 19:55:07 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class app\modules\admin does not exist' in C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\di\Container.php:424
+Stack trace:
+#0 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\di\Container.php(424): ReflectionClass->__construct('app\\modules\\adm...')
+#1 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\di\Container.php(364): yii\di\Container->getDependencies('app\\modules\\adm...')
+#2 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('app\\modules\\adm...', Array, Array)
+#3 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('app\\modules\\adm...', Array, Array)
+#4 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\base\Module.php(423): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\base\Module.php(581): yii\base\Module->getModule('admin')
+#6 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('admin')
+#7 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin', Array)
+#8 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\shipyard\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2017-03-31 19:55:07 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin'
+]
+
+$_COOKIE = [
+    '_csrf' => '78b53a5434c5725d2e90a359a10b393d476a3377e3b62d991b73ba647eebc7f4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wolU5NrugyG1C7q4rK0xB44vD7B4u2Yh\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4,fr;q=0.2,ja;q=0.2'
+    'HTTP_COOKIE' => '_csrf=78b53a5434c5725d2e90a359a10b393d476a3377e3b62d991b73ba647eebc7f4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wolU5NrugyG1C7q4rK0xB44vD7B4u2Yh%22%3B%7D'
+    'PATH' => 'C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\common\\win32\\bin;C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\common\\win32\\lib;C:\\MentorGraphics\\9.5PADS\\MGC_HOME.ixn\\bin;C:\\MentorGraphics\\9.5PADS\\MGC_HOME.ixn\\lib;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Cadence\\SPB_16.6\\tools\\pcb\\bin;C:\\Cadence\\SPB_16.6\\tools\\bin;C:\\Cadence\\SPB_16.6\\tools\\libutil\\bin;C:\\Cadence\\SPB_16.6\\tools\\fet\\bin;C:\\Cadence\\SPB_16.6\\tools\\specctra\\bin;C:\\Cadence\\SPB_16.6\\tools\\pspice;C:\\Cadence\\SPB_16.6\\tools\\capture;C:\\Cadence\\SPB_16.6\\openaccess\\bin\\win32\\opt;C:\\Program Files\\Java\\jdk1.7.0_17\\\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.5\\bin;C:\\apacheMaven3.3.9\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\opencv\\build\\x64\\vc12\\bin;C:\\Program Files\\opencv\\build\\bin;C:\\Program Files (x86)\\Nordic Semiconductor\\nrf5x\\bin\\;C:\\Program Files (x86)\\Nordic Semiconductor\\nrf51\\bin\\;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\CMake\\bin;C:\\MinGW\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\nill\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\GNU Tools ARM Embedded\\5.4 2016q2\\bin;C:\\Program Files (x86)\\Atmel\\sam-ba_2.12\\drv\\;C:\\Program Files (x86)\\Atmel\\sam-ba_2.12;C:\\Program Files (x86)\\ATMEL Corporation\\AT91-ISP v1.13\\Library\\;C:\\Program Files (x86)\\ATMEL Corporation\\AT91-ISP v1.13\\sam-ba 2.9;C:\\Users\\nill\\AppData\\Local\\atom\\bin;C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\common\\win32\\lib;C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\CAMCAD;C:\\Users\\nill\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/shipyard/web/index.php'
+    'REMOTE_PORT' => '7203'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin'
+    'REQUEST_URI' => '/shipyard/web/index.php?r=admin'
+    'SCRIPT_NAME' => '/shipyard/web/index.php'
+    'PHP_SELF' => '/shipyard/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490982907.162
+    'REQUEST_TIME' => 1490982907
+]
+2017-03-31 19:56:00 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class app\modules\admin does not exist' in C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\di\Container.php:424
+Stack trace:
+#0 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\di\Container.php(424): ReflectionClass->__construct('app\\modules\\adm...')
+#1 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\di\Container.php(364): yii\di\Container->getDependencies('app\\modules\\adm...')
+#2 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('app\\modules\\adm...', Array, Array)
+#3 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('app\\modules\\adm...', Array, Array)
+#4 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\base\Module.php(423): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\base\Module.php(581): yii\base\Module->getModule('admin')
+#6 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('admin/default/i...')
+#7 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/default/i...', Array)
+#8 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\shipyard\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2017-03-31 19:56:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/default/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '78b53a5434c5725d2e90a359a10b393d476a3377e3b62d991b73ba647eebc7f4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wolU5NrugyG1C7q4rK0xB44vD7B4u2Yh\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4,fr;q=0.2,ja;q=0.2'
+    'HTTP_COOKIE' => '_csrf=78b53a5434c5725d2e90a359a10b393d476a3377e3b62d991b73ba647eebc7f4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wolU5NrugyG1C7q4rK0xB44vD7B4u2Yh%22%3B%7D'
+    'PATH' => 'C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\common\\win32\\bin;C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\common\\win32\\lib;C:\\MentorGraphics\\9.5PADS\\MGC_HOME.ixn\\bin;C:\\MentorGraphics\\9.5PADS\\MGC_HOME.ixn\\lib;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Cadence\\SPB_16.6\\tools\\pcb\\bin;C:\\Cadence\\SPB_16.6\\tools\\bin;C:\\Cadence\\SPB_16.6\\tools\\libutil\\bin;C:\\Cadence\\SPB_16.6\\tools\\fet\\bin;C:\\Cadence\\SPB_16.6\\tools\\specctra\\bin;C:\\Cadence\\SPB_16.6\\tools\\pspice;C:\\Cadence\\SPB_16.6\\tools\\capture;C:\\Cadence\\SPB_16.6\\openaccess\\bin\\win32\\opt;C:\\Program Files\\Java\\jdk1.7.0_17\\\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.5\\bin;C:\\apacheMaven3.3.9\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\opencv\\build\\x64\\vc12\\bin;C:\\Program Files\\opencv\\build\\bin;C:\\Program Files (x86)\\Nordic Semiconductor\\nrf5x\\bin\\;C:\\Program Files (x86)\\Nordic Semiconductor\\nrf51\\bin\\;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\CMake\\bin;C:\\MinGW\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\nill\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\GNU Tools ARM Embedded\\5.4 2016q2\\bin;C:\\Program Files (x86)\\Atmel\\sam-ba_2.12\\drv\\;C:\\Program Files (x86)\\Atmel\\sam-ba_2.12;C:\\Program Files (x86)\\ATMEL Corporation\\AT91-ISP v1.13\\Library\\;C:\\Program Files (x86)\\ATMEL Corporation\\AT91-ISP v1.13\\sam-ba 2.9;C:\\Users\\nill\\AppData\\Local\\atom\\bin;C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\common\\win32\\lib;C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\CAMCAD;C:\\Users\\nill\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/shipyard/web/index.php'
+    'REMOTE_PORT' => '7229'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/default/index'
+    'REQUEST_URI' => '/shipyard/web/index.php?r=admin/default/index'
+    'SCRIPT_NAME' => '/shipyard/web/index.php'
+    'PHP_SELF' => '/shipyard/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490982960.028
+    'REQUEST_TIME' => 1490982960
+]
+2017-03-31 20:25:06 [127.0.0.1][-][-][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: C:\xampp\htdocs\shipyard\modules\admin\views\layouts\main.php' in C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\modules\admin\controllers\DefaultController))
+#1 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="adm...')
+#2 C:\xampp\htdocs\shipyard\modules\admin\controllers\DefaultController.php(19): yii\base\Controller->render('index')
+#3 [internal function]: app\modules\admin\controllers\DefaultController->actionIndex()
+#4 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#7 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/default/i...', Array)
+#8 C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\shipyard\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2017-03-31 20:25:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/default/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '78b53a5434c5725d2e90a359a10b393d476a3377e3b62d991b73ba647eebc7f4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wolU5NrugyG1C7q4rK0xB44vD7B4u2Yh\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4,fr;q=0.2,ja;q=0.2'
+    'HTTP_COOKIE' => '_csrf=78b53a5434c5725d2e90a359a10b393d476a3377e3b62d991b73ba647eebc7f4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wolU5NrugyG1C7q4rK0xB44vD7B4u2Yh%22%3B%7D'
+    'PATH' => 'C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\common\\win32\\bin;C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\common\\win32\\lib;C:\\MentorGraphics\\9.5PADS\\MGC_HOME.ixn\\bin;C:\\MentorGraphics\\9.5PADS\\MGC_HOME.ixn\\lib;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Cadence\\SPB_16.6\\tools\\pcb\\bin;C:\\Cadence\\SPB_16.6\\tools\\bin;C:\\Cadence\\SPB_16.6\\tools\\libutil\\bin;C:\\Cadence\\SPB_16.6\\tools\\fet\\bin;C:\\Cadence\\SPB_16.6\\tools\\specctra\\bin;C:\\Cadence\\SPB_16.6\\tools\\pspice;C:\\Cadence\\SPB_16.6\\tools\\capture;C:\\Cadence\\SPB_16.6\\openaccess\\bin\\win32\\opt;C:\\Program Files\\Java\\jdk1.7.0_17\\\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.5\\bin;C:\\apacheMaven3.3.9\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\opencv\\build\\x64\\vc12\\bin;C:\\Program Files\\opencv\\build\\bin;C:\\Program Files (x86)\\Nordic Semiconductor\\nrf5x\\bin\\;C:\\Program Files (x86)\\Nordic Semiconductor\\nrf51\\bin\\;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\CMake\\bin;C:\\MinGW\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\nill\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\GNU Tools ARM Embedded\\5.4 2016q2\\bin;C:\\Program Files (x86)\\Atmel\\sam-ba_2.12\\drv\\;C:\\Program Files (x86)\\Atmel\\sam-ba_2.12;C:\\Program Files (x86)\\ATMEL Corporation\\AT91-ISP v1.13\\Library\\;C:\\Program Files (x86)\\ATMEL Corporation\\AT91-ISP v1.13\\sam-ba 2.9;C:\\Users\\nill\\AppData\\Local\\atom\\bin;C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\common\\win32\\lib;C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\CAMCAD;C:\\Users\\nill\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/shipyard/web/index.php'
+    'REMOTE_PORT' => '8499'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/default/index'
+    'REQUEST_URI' => '/shipyard/web/index.php?r=admin/default/index'
+    'SCRIPT_NAME' => '/shipyard/web/index.php'
+    'PHP_SELF' => '/shipyard/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490984705.961
+    'REQUEST_TIME' => 1490984705
+]
+2017-03-31 20:44:23 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Breadcrumbs' not found' in C:\xampp\htdocs\shipyard\modules\admin\views\layouts\backend.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-03-31 20:44:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/user/signin'
+]
+
+$_COOKIE = [
+    '_csrf' => '78b53a5434c5725d2e90a359a10b393d476a3377e3b62d991b73ba647eebc7f4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wolU5NrugyG1C7q4rK0xB44vD7B4u2Yh\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4,fr;q=0.2,ja;q=0.2'
+    'HTTP_COOKIE' => '_csrf=78b53a5434c5725d2e90a359a10b393d476a3377e3b62d991b73ba647eebc7f4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wolU5NrugyG1C7q4rK0xB44vD7B4u2Yh%22%3B%7D'
+    'PATH' => 'C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\common\\win32\\bin;C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\common\\win32\\lib;C:\\MentorGraphics\\9.5PADS\\MGC_HOME.ixn\\bin;C:\\MentorGraphics\\9.5PADS\\MGC_HOME.ixn\\lib;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Cadence\\SPB_16.6\\tools\\pcb\\bin;C:\\Cadence\\SPB_16.6\\tools\\bin;C:\\Cadence\\SPB_16.6\\tools\\libutil\\bin;C:\\Cadence\\SPB_16.6\\tools\\fet\\bin;C:\\Cadence\\SPB_16.6\\tools\\specctra\\bin;C:\\Cadence\\SPB_16.6\\tools\\pspice;C:\\Cadence\\SPB_16.6\\tools\\capture;C:\\Cadence\\SPB_16.6\\openaccess\\bin\\win32\\opt;C:\\Program Files\\Java\\jdk1.7.0_17\\\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.5\\bin;C:\\apacheMaven3.3.9\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\opencv\\build\\x64\\vc12\\bin;C:\\Program Files\\opencv\\build\\bin;C:\\Program Files (x86)\\Nordic Semiconductor\\nrf5x\\bin\\;C:\\Program Files (x86)\\Nordic Semiconductor\\nrf51\\bin\\;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\CMake\\bin;C:\\MinGW\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\nill\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\GNU Tools ARM Embedded\\5.4 2016q2\\bin;C:\\Program Files (x86)\\Atmel\\sam-ba_2.12\\drv\\;C:\\Program Files (x86)\\Atmel\\sam-ba_2.12;C:\\Program Files (x86)\\ATMEL Corporation\\AT91-ISP v1.13\\Library\\;C:\\Program Files (x86)\\ATMEL Corporation\\AT91-ISP v1.13\\sam-ba 2.9;C:\\Users\\nill\\AppData\\Local\\atom\\bin;C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\common\\win32\\lib;C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\CAMCAD;C:\\Users\\nill\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/shipyard/web/index.php'
+    'REMOTE_PORT' => '9028'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/user/signin'
+    'REQUEST_URI' => '/shipyard/web/index.php?r=admin/user/signin'
+    'SCRIPT_NAME' => '/shipyard/web/index.php'
+    'PHP_SELF' => '/shipyard/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490985863.856
+    'REQUEST_TIME' => 1490985863
+]
+2017-03-31 21:24:41 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '，' (T_STRING), expecting ']'' in C:\xampp\htdocs\shipyard\modules\admin\assets\BackendAsset.php:31
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-03-31 21:24:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/default/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9f995ea8e03d69cab60eaff345e4aa52b99ef1e45ebc441a67517e04ad971eaea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"oiX3ucboAtbC9CtwqzpR63FD5iQyVciP\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4,fr;q=0.2,ja;q=0.2'
+    'HTTP_COOKIE' => '_csrf=9f995ea8e03d69cab60eaff345e4aa52b99ef1e45ebc441a67517e04ad971eaea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22oiX3ucboAtbC9CtwqzpR63FD5iQyVciP%22%3B%7D'
+    'PATH' => 'C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\common\\win32\\bin;C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\common\\win32\\lib;C:\\MentorGraphics\\9.5PADS\\MGC_HOME.ixn\\bin;C:\\MentorGraphics\\9.5PADS\\MGC_HOME.ixn\\lib;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Cadence\\SPB_16.6\\tools\\pcb\\bin;C:\\Cadence\\SPB_16.6\\tools\\bin;C:\\Cadence\\SPB_16.6\\tools\\libutil\\bin;C:\\Cadence\\SPB_16.6\\tools\\fet\\bin;C:\\Cadence\\SPB_16.6\\tools\\specctra\\bin;C:\\Cadence\\SPB_16.6\\tools\\pspice;C:\\Cadence\\SPB_16.6\\tools\\capture;C:\\Cadence\\SPB_16.6\\openaccess\\bin\\win32\\opt;C:\\Program Files\\Java\\jdk1.7.0_17\\\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.5\\bin;C:\\apacheMaven3.3.9\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\opencv\\build\\x64\\vc12\\bin;C:\\Program Files\\opencv\\build\\bin;C:\\Program Files (x86)\\Nordic Semiconductor\\nrf5x\\bin\\;C:\\Program Files (x86)\\Nordic Semiconductor\\nrf51\\bin\\;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\CMake\\bin;C:\\MinGW\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\nill\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\GNU Tools ARM Embedded\\5.4 2016q2\\bin;C:\\Program Files (x86)\\Atmel\\sam-ba_2.12\\drv\\;C:\\Program Files (x86)\\Atmel\\sam-ba_2.12;C:\\Program Files (x86)\\ATMEL Corporation\\AT91-ISP v1.13\\Library\\;C:\\Program Files (x86)\\ATMEL Corporation\\AT91-ISP v1.13\\sam-ba 2.9;C:\\Users\\nill\\AppData\\Local\\atom\\bin;C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\common\\win32\\lib;C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\CAMCAD;C:\\Users\\nill\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/shipyard/web/index.php'
+    'REMOTE_PORT' => '9766'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/default/index'
+    'REQUEST_URI' => '/shipyard/web/index.php?r=admin/default/index'
+    'SCRIPT_NAME' => '/shipyard/web/index.php'
+    'PHP_SELF' => '/shipyard/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490988281.371
+    'REQUEST_TIME' => 1490988281
+]
+2017-04-01 16:12:07 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\admin\assets\View' not found' in C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\di\Container.php:375
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-04-01 16:12:07 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/default/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '4f9db65b388ee6f979b052722a3781ca6f0d44b10e8e9ebe9b8724489c6c3914a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"r3XkswOu3JK5eLm2tU_VPF6DDBC-vD2f\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4,fr;q=0.2,ja;q=0.2'
+    'HTTP_COOKIE' => '_csrf=4f9db65b388ee6f979b052722a3781ca6f0d44b10e8e9ebe9b8724489c6c3914a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22r3XkswOu3JK5eLm2tU_VPF6DDBC-vD2f%22%3B%7D'
+    'PATH' => 'C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\common\\win32\\bin;C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\common\\win32\\lib;C:\\MentorGraphics\\9.5PADS\\MGC_HOME.ixn\\bin;C:\\MentorGraphics\\9.5PADS\\MGC_HOME.ixn\\lib;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Cadence\\SPB_16.6\\tools\\pcb\\bin;C:\\Cadence\\SPB_16.6\\tools\\bin;C:\\Cadence\\SPB_16.6\\tools\\libutil\\bin;C:\\Cadence\\SPB_16.6\\tools\\fet\\bin;C:\\Cadence\\SPB_16.6\\tools\\specctra\\bin;C:\\Cadence\\SPB_16.6\\tools\\pspice;C:\\Cadence\\SPB_16.6\\tools\\capture;C:\\Cadence\\SPB_16.6\\openaccess\\bin\\win32\\opt;C:\\Program Files\\Java\\jdk1.7.0_17\\\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.5\\bin;C:\\apacheMaven3.3.9\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\opencv\\build\\x64\\vc12\\bin;C:\\Program Files\\opencv\\build\\bin;C:\\Program Files (x86)\\Nordic Semiconductor\\nrf5x\\bin\\;C:\\Program Files (x86)\\Nordic Semiconductor\\nrf51\\bin\\;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\CMake\\bin;C:\\MinGW\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\nill\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\GNU Tools ARM Embedded\\5.4 2016q2\\bin;C:\\Program Files (x86)\\Atmel\\sam-ba_2.12\\drv\\;C:\\Program Files (x86)\\Atmel\\sam-ba_2.12;C:\\Program Files (x86)\\ATMEL Corporation\\AT91-ISP v1.13\\Library\\;C:\\Program Files (x86)\\ATMEL Corporation\\AT91-ISP v1.13\\sam-ba 2.9;C:\\Users\\nill\\AppData\\Local\\atom\\bin;C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\common\\win32\\lib;C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\CAMCAD;C:\\Users\\nill\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/shipyard/web/index.php'
+    'REMOTE_PORT' => '2132'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/default/index'
+    'REQUEST_URI' => '/shipyard/web/index.php?r=admin/default/index'
+    'SCRIPT_NAME' => '/shipyard/web/index.php'
+    'PHP_SELF' => '/shipyard/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491055927.575
+    'REQUEST_TIME' => 1491055927
+]
+2017-04-01 16:12:12 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\admin\assets\View' not found' in C:\xampp\htdocs\shipyard\vendor\yiisoft\yii2\di\Container.php:375
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-04-01 16:12:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/default/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '4f9db65b388ee6f979b052722a3781ca6f0d44b10e8e9ebe9b8724489c6c3914a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"r3XkswOu3JK5eLm2tU_VPF6DDBC-vD2f\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4,fr;q=0.2,ja;q=0.2'
+    'HTTP_COOKIE' => '_csrf=4f9db65b388ee6f979b052722a3781ca6f0d44b10e8e9ebe9b8724489c6c3914a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22r3XkswOu3JK5eLm2tU_VPF6DDBC-vD2f%22%3B%7D'
+    'PATH' => 'C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\common\\win32\\bin;C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\common\\win32\\lib;C:\\MentorGraphics\\9.5PADS\\MGC_HOME.ixn\\bin;C:\\MentorGraphics\\9.5PADS\\MGC_HOME.ixn\\lib;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Cadence\\SPB_16.6\\tools\\pcb\\bin;C:\\Cadence\\SPB_16.6\\tools\\bin;C:\\Cadence\\SPB_16.6\\tools\\libutil\\bin;C:\\Cadence\\SPB_16.6\\tools\\fet\\bin;C:\\Cadence\\SPB_16.6\\tools\\specctra\\bin;C:\\Cadence\\SPB_16.6\\tools\\pspice;C:\\Cadence\\SPB_16.6\\tools\\capture;C:\\Cadence\\SPB_16.6\\openaccess\\bin\\win32\\opt;C:\\Program Files\\Java\\jdk1.7.0_17\\\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\MySQL\\MySQL Server 5.5\\bin;C:\\apacheMaven3.3.9\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\opencv\\build\\x64\\vc12\\bin;C:\\Program Files\\opencv\\build\\bin;C:\\Program Files (x86)\\Nordic Semiconductor\\nrf5x\\bin\\;C:\\Program Files (x86)\\Nordic Semiconductor\\nrf51\\bin\\;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\CMake\\bin;C:\\MinGW\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\nill\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files (x86)\\GNU Tools ARM Embedded\\5.4 2016q2\\bin;C:\\Program Files (x86)\\Atmel\\sam-ba_2.12\\drv\\;C:\\Program Files (x86)\\Atmel\\sam-ba_2.12;C:\\Program Files (x86)\\ATMEL Corporation\\AT91-ISP v1.13\\Library\\;C:\\Program Files (x86)\\ATMEL Corporation\\AT91-ISP v1.13\\sam-ba 2.9;C:\\Users\\nill\\AppData\\Local\\atom\\bin;C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\common\\win32\\lib;C:\\MentorGraphics\\9.5PADS\\SDD_HOME\\CAMCAD;C:\\Users\\nill\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/shipyard/web/index.php'
+    'REMOTE_PORT' => '2133'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/default/index'
+    'REQUEST_URI' => '/shipyard/web/index.php?r=admin/default/index'
+    'SCRIPT_NAME' => '/shipyard/web/index.php'
+    'PHP_SELF' => '/shipyard/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491055932.62
+    'REQUEST_TIME' => 1491055932
+]

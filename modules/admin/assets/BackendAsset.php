@@ -17,15 +17,31 @@ class BackendAsset extends AssetBundle
 {
     public $basePath = '@webroot';
     public $baseUrl = '@web';
+    public $jsOptions = [
+        'position' =>  \yii\web\View::POS_HEAD,
+    ];  // 这是设置所有js放置的位置
     public $css = [
         'backend/css/bootstrap/bootstrap.css',
+        'backend/css/bootstrap/bootstrap-responsive.css',
         'backend/css/bootstrap/bootstrap-overrides.css',
+
+        'backend/css/lib/jquery-ui-1.10.2.custom.css',
+        'backend/css/lib/font-awesome.css',
+        'backend/css/backendmain/layout.css',
+        'backend/css/backendmain/elements.css',
+        'backend/css/backendmain/icons.css',
+        'backend/css/compiled/index.css',
         'backend/css/compiled/signin.css',
-        'backend/css/compiled/layout.css',
-        'backend/css/compiled/elements.css',
-        'backend/css/compiled/icons.css',
     ];
     public $js = [
+      'backend/js/jquery-latest.js',
+      'backend/js/bootstrap.min.js',
+      'backend/js/jquery-ui-1.10.2.custom.min.js',
+      'backend/js/jquery.knob.js',
+      'backend/js/jquery.flot.js',
+      'backend/js/jquery.flot.stack.js',
+      'backend/js/jquery.flot.resize.js',
+      'backend/js/theme.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
