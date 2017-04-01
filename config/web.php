@@ -6,6 +6,7 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+    'defaultRoute' => 'index',
     'components' => [
       // 禁止自带的样式和js
       'assetManager'=>[
@@ -38,7 +39,15 @@ $config = [
             // send all mails to a file by default. You have to set
             // 'useFileTransport' to false and configure a transport
             // for the mailer to send real emails.
-            'useFileTransport' => true,
+            'useFileTransport' => false,
+           'transport' => [
+               'class' => 'Swift_SmtpTransport',
+               'host' => 'smtp.163.com',
+               'username' => 'nill_rhoads@163.com',
+               'password' => 'matthewjack4444',
+               'port' => '465',
+               'encryption' => 'ssl',
+           ],
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
